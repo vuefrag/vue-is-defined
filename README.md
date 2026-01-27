@@ -12,7 +12,6 @@
   <a href="https://github.com/vuefrag/vue-is-defined/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vue-is-defined.svg" alt="license" /></a>
 </p>
 
-> Extracted from [VueUse](https://vueuse.org/) for standalone use.
 
 ## Installation
 
@@ -36,6 +35,9 @@ const example = ref(Math.random() ? 'example' : undefined) // Ref<string | undef
 if (isDefined(example))
   example // Ref<string>
 ```
+
+> Extracted from [VueUse](https://vueuse.org/) for standalone use.
+
 
 ## License
 
