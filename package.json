@@ -1,7 +1,7 @@
 {
   "name": "vue-is-defined",
-  "version": "1.0.3",
-  "description": "Vue 3 type guard checking if ref value is not null/undefined",
+  "version": "1.0.4",
+  "description": "Vue 3 composable utility",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,7 +15,8 @@
   "files": [
     "dist",
     "logo.svg",
-    "banner.svg"
+    "banner.svg",
+    "README.md"
   ],
   "scripts": {
     "build": "unbuild",
@@ -23,23 +24,13 @@
     "postpublish": "cp README.github.md README.md"
   },
   "keywords": [
-    "vue",
-    "vue3",
-    "vue-3",
-    "composable",
-    "composition-api",
-    "vueuse",
-    "utility",
-    "helper",
-    "utils",
     "defined",
     "nullish",
     "type-guard",
     "typescript",
     "check",
     "null",
-    "undefined",
-    "isDefined"
+    "undefined"
   ],
   "author": "VueFrag",
   "license": "MIT",
