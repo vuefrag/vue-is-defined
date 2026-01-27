@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="vue-is-defined" width="100%" />
+  <img src="logo.svg" alt="vue-is-defined" width="180" />
 </p>
 
 <h1 align="center">vue-is-defined</h1>
