@@ -4,7 +4,7 @@
 
 <h1 align="center">vue-is-defined</h1>
 
-<p align="center"></p>
+<p align="center">A Vue 3 composition API type guard utility that checks if a ref's value is defined (not null or undefined), with proper TypeScript type narrowing for safe property access.</p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vue-is-defined"><img src="https://img.shields.io/npm/v/vue-is-defined.svg" alt="npm version" /></a>
@@ -20,12 +20,16 @@ npm install vue-is-defined
 ## Usage
 
 ```ts
-import { isDefined } from '@vueuse/core'
+import { isDefined } from 'vue-is-defined'
+import { ref, computed } from 'vue'
 
-const example = ref(Math.random() ? 'example' : undefined) // Ref<string | undefined>
+const value = ref<string | undefined>('hello')
+const defined = isDefined(value)
 
-if (isDefined(example))
-  example // Ref<string>
+console.log(defined.value) // true
+
+value.value = undefined
+console.log(defined.value) // false
 ```
 
 ## License
