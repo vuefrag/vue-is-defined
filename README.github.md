@@ -19,10 +19,8 @@ npm install vue-is-defined
 
 ## Usage
 
-Non-nullish checking type guard for Ref.
-
 ```ts
-import { isDefined } from 'vue-is-defined'
+import { isDefined } from '@vueuse/core'
 
 const example = ref(Math.random() ? 'example' : undefined) // Ref<string | undefined>
 
