@@ -1,8 +1,7 @@
 {
   "name": "vue-is-defined",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Vue 3 type guard checking if ref value is not null/undefined",
-  "readme": "README.md",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
